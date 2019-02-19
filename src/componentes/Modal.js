@@ -18,11 +18,11 @@ export default class ListaCachorros extends Component {
                             <ModalContainer>
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize">
-                                            <h5>Artículo agregado al carrito</h5>
+                                        <div className="col-8 mx-auto col-md-6 col-lg-4 text-center bg-dark">
+                                            <h5 className="text-info">Cachorro agregado</h5>
                                             <img src={img} className="img-fluid" alt="product" />
-                                            <h5>{title}</h5>
-                                            <h5 className="text-muted">Precio: Lps.{price}
+                                            <h5 class="text-white">{title}</h5>
+                                            <h5 className="text-light">Precio: Lps.{price}
                                             </h5>
                                             <Link to="/">
                                                 <ButtonContainer onClick={() => closeModal()}>
@@ -56,11 +56,12 @@ top:0;
 left:0;
 right:0;
 bottom:0;
-background: rgba(0,0,0,0.3);
+background: rgba(0,0,0,1.0);
 display: flex;
 aling-items: center;
 justify-content: center;
 #modal{
-    background: var(--mainWhite);
+    background: var(--mainRed);
+    color: var(--mainBlue);
 }
 `;
