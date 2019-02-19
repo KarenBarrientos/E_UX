@@ -15,7 +15,7 @@ export default function CartItem({ item, value }) {
             </div>
 
             <div className="col-10 mx-auto col-lg-2">
-                <span className="d-log-none">Precio: </span> {price}
+                <span className="d-log-none">  </span> {price}
             </div>
 
             <div className="col-10 mx-auto col-lg-2 my-lg-0">
@@ -40,7 +40,7 @@ export default function CartItem({ item, value }) {
 
             </div>
             <div className="col-10 mx-auto col-lg-2">
-                <strong>Total artículo: Lps. {total} </strong>
+                <strong>Lps. {total} </strong>
             </div>
         </div >
     );
