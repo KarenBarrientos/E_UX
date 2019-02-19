@@ -33,7 +33,7 @@ export default class Details extends Component {
                                         <span>Lps.</span> {price}
                                         </strong>
                                     </h5>
-                                    <p className="text-capitalize font-weight-bold mt-3 mb-0">Información sobre el cachorro: </p>
+                                    <p className="text-capitalize font-weight-bold mt-3 mb-0">Información sobre el Pez: </p>
                                     <p className="text-muted lead">{info}</p>
                                     {/* botones*/}
                                     <div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
-import {ButtonContainer} from './Button';
+import { ButtonContainer } from './Button';
 import styled from 'styled-components';
 
 export default class Navbar extends Component {
@@ -19,18 +19,26 @@ export default class Navbar extends Component {
 
                 <ul className="navbar-nav aling-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link"> Cachorros</Link>
+                        <Link to="/" className="nav-link"> Peces</Link>
                     </li>
                 </ul>
+
                 <Link to="/cart" className="ml-5">
                     <ButtonContainer>
-                        <span className="mr-2">
+                        <span className="ml-2 ">
                             <i className="fas fa-cart-plus" />
                         </span>
                         Carrito
                     </ButtonContainer>
+                    <span className="ml-5">
+                    <i class="fas fa-search"></i>
+                    </span>
                 </Link>
             </NavWrapper>
+
+
+
+
         );
     }
 }
@@ -38,9 +46,9 @@ export default class Navbar extends Component {
 const NavWrapper = styled.nav`
 background: var(--mainBlue2);
 .nav-link{
-    color:var(--mainWhite) !important;
-    font-size: 2.0rem;
-    text-transform: capitalize ; 
+color: var(--mainWhite) !important;
+font-size: 2.0rem;
+text-transform: capitalize ; 
 }
-
+            
 `;

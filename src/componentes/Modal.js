@@ -19,7 +19,7 @@ export default class ListaCachorros extends Component {
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-8 mx-auto col-md-6 col-lg-4 text-center bg-dark">
-                                            <h5 className="text-info">Cachorro agregado</h5>
+                                            <h5 className="text-info">Pez agregado</h5>
                                             <img src={img} className="img-fluid" alt="product" />
                                             <h5 class="text-white">{title}</h5>
                                             <h5 className="text-light">Precio: Lps.{price}
