@@ -17,7 +17,19 @@ body{
 }
 
 .text-title{
-  font-family: 'Supermercado One', cursive;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-title2{
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-title3{
+  font-family: 'PT Serif', serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
