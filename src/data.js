@@ -94,6 +94,54 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
+  },
+  {
+    id: 9,
+    title: "Rottweiler",
+    img: "img/4.jpg",
+    price: 2100,
+    company: "SuperPatitas",
+    info:
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 10,
+    title: "Rottweiler",
+    img: "img/444.jpg",
+    price: 2100,
+    company: "SuperPatitas",
+    info:
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 11,
+    title: "Rottweiler",
+    img: "img/44.jpg",
+    price: 2100,
+    company: "SuperPatitas2",
+    info:
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 12,
+    title: "Pug",
+    img: "img/5.jpg",
+    price: 2100,
+    company: "SuperPatitas2",
+    info:
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
+    inCart: false,
+    count: 0,
+    total: 0
   }
 ];
 
@@ -104,7 +152,7 @@ export const detailProduct = {
   price: 3000,
   company: "SuperPAtitas",
   info:
-    "Canino",
+    "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
   inCart: false,
   count: 0,
   total: 0
