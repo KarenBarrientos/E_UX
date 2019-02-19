@@ -28,7 +28,7 @@ export default class Details extends Component {
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                                     <h2> {title}</h2>
                                     <h4 className="text-title text-uppercase text-muted mt-3 mb-2"> Fundación:<span className="text-uppercase">{company}</span> </h4>
-                                    <h5 className="text-blue">
+                                    <h5 className="text-blue"> <br/>
                                         <strong>Precio:
                                         <span>Lps.</span> {price}
                                         </strong>

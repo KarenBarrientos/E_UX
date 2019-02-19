@@ -16,17 +16,17 @@ export default function CartTotals({ value }) {
                         </Link>
 
                         <h5>
-                            <span className="text-title">Subtotal: </span>
+                            <span className="text-titl3">Subtotal: </span>
                             <strong>Lps. {cartSubtotal} </strong>
                         </h5>
 
                         <h5>
-                            <span className="text-title">Impuesto: </span>
+                            <span className="text-titl3">Impuesto: </span>
                             <strong>Lps. {cartTax} </strong>
                         </h5>
 
                         <h5>
-                            <span className="text-title">Total: </span>
+                            <span className="text-titl3">Total: </span>
                             <strong>Lps. {cartTotal} </strong>
                         </h5>
 
