@@ -1,9 +1,7 @@
-
-
 export const storeProducts = [
   {
     id: 1,
-    title: "Boxer",
+    title: "Bóxer",
     img: "img/1.jpg",
     price: 3000,
     company: "SuperPatitas",
@@ -15,7 +13,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Boxer",
+    title: "Bóxer",
     img: "img/2.jpg",
     price: 3000,
     company: "SuperPatitas",
@@ -27,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "Chow Chow",
+    title: "Chow chow",
     img: "img/11.jpg",
     price: 2500,
     company: "SuperPatitas2",
@@ -39,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Chow Chow",
+    title: "Chow chow",
     img: "img/22.jpg",
     price: 2500,
     company: "SuperPatitas2",
@@ -51,8 +49,8 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Chow Chow",
-    img: "img/33.jpg",
+    title: "Pitbull",
+    img: "img/111.jpg",
     price: 2500,
     company: "SuperPatitas2",
     info:
@@ -64,7 +62,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Pitbull",
-    img: "img/111.jpg",
+    img: "img/222.jpg",
     price: 4000,
     company: "SuperPatitas3",
     info:
@@ -76,7 +74,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Pitbull",
-    img: "img/222.jpg",
+    img: "img/333.jpg",
     price: 4000,
     company: "Canino",
     info:
@@ -87,8 +85,8 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Pitbull",
-    img: "img/333.jpg",
+    title: "Chow chow",
+    img: "img/33.jpg",
     price: 4000,
     company: "SuperPatitas3",
     info:
@@ -101,7 +99,7 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Boxer",
+  title: "Bóxer",
   img: "img/1.jpg",
   price: 3000,
   company: "SuperPAtitas",
