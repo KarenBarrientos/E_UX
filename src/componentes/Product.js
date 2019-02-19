@@ -18,7 +18,7 @@ export default class Product extends Component {
                                     <img src={img} alt="product" className="card-img-top" />
                                 </Link>
                                 <button className="cart-btn" disabled={inCart ? true : false} onClick={() => { value.addToCart(id); value.openModal(id);}}>
-                                    {inCart ? (<p className="text-capitalize mb-0" disabled> En el carrito</p>) : (<i className="fas fa-cart-plus" />)}
+                                    {inCart ? (<p className="text-capitalize mb-0" disabled>{" "} En el carrito</p>) : (<i className="fas fa-cart-plus" />)}
                                 </button>
                             </div>
                         )}
@@ -92,7 +92,7 @@ const ProductWrapper = styled.div`
     font-size:1.4rem;
     border-radius:0.5rem 0 0 0;
     transform: translate(100%,100%);
-    transition: all 1s linear;
+    transition: all 0.4s linear;
 }
 
 .img-container:hover .cart-btn{
