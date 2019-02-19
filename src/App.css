@@ -8,11 +8,13 @@
   --mainSalmon: #FFA07A;
   --mainDarkSalmon: #E9967A;
   --mainDarkRed: #8B0000;
+  --mainBlue2: #008cba;
+  --mainDark2: #adb5bd;
 }
 
 body{
   font-family: 'Libre Baskerville', serif !important;
-  background: var(--mainWhite) !important;
+  background: var(--mainDark2) !important;
   color: var(--mainDark) !important;
 }
 
