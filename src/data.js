@@ -3,10 +3,10 @@ export const storeProducts = [
     id: 1,
     title: "Bóxer",
     img: "img/1.jpg",
-    price: 3000,
+    price: 2000,
     company: "SuperPatitas",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -15,10 +15,10 @@ export const storeProducts = [
     id: 2,
     title: "Bóxer",
     img: "img/2.jpg",
-    price: 3000,
+    price: 2000,
     company: "SuperPatitas",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -27,10 +27,10 @@ export const storeProducts = [
     id: 3,
     title: "Chow chow",
     img: "img/11.jpg",
-    price: 2500,
+    price: 1500,
     company: "SuperPatitas2",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -39,10 +39,10 @@ export const storeProducts = [
     id: 4,
     title: "Chow chow",
     img: "img/22.jpg",
-    price: 2500,
+    price: 1500,
     company: "SuperPatitas2",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -52,9 +52,9 @@ export const storeProducts = [
     title: "Pitbull",
     img: "img/111.jpg",
     price: 2500,
-    company: "SuperPatitas2",
+    company: "SuperPatitas3",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -63,10 +63,10 @@ export const storeProducts = [
     id: 6,
     title: "Pitbull",
     img: "img/222.jpg",
-    price: 4000,
+    price: 2500,
     company: "SuperPatitas3",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -75,10 +75,10 @@ export const storeProducts = [
     id: 7,
     title: "Pitbull",
     img: "img/333.jpg",
-    price: 4000,
-    company: "Canino",
+    price: 2500,
+    company: "SuperPatitas3",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
@@ -87,10 +87,10 @@ export const storeProducts = [
     id: 8,
     title: "Chow chow",
     img: "img/33.jpg",
-    price: 4000,
-    company: "SuperPatitas3",
+    price: 1500,
+    company: "SuperPatitas2",
     info:
-      "Canino",
+      "Cada uno de nuestros cachorros es revisado minuciosamente por veterinario especializado, contamos con instalaciones para atender posventa a su cachorro",
     inCart: false,
     count: 0,
     total: 0
